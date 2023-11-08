@@ -1,0 +1,3 @@
+# online_examination_system_android
+An attempt to implement a system where students can attend their MCQ as well as Descriptive test on an application (Android based) will be able to view their performance/result of MCQ immediately. The application is supported by SQL Server as a storage back-end. 
+[I was assigned the task to create modules of the project where the students were able to view their scheduled examinations, were able to attend the examination according to their schedule , view their result immediately after attempting the said MCQ exam, view their Descriptive result as soon as the faculty completes their assessment and where the faculty could view results class wise and subject wise as well as assess the Descriptive exam submissions]
