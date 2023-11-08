@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyResultActivity"
+    android:background="@color/black">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FF00FF"
+        android:id="@+id/topbar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/result_display" />
+
+    </Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topbar"
+        android:layout_above="@id/navigation"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/faculty_text_back"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginStart="5sp"
+        android:id="@+id/reslst"
+        android:textColor="@color/white"/>
+
+    <Toolbar
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FF00FF"
+        android:paddingStart="40sp"
+        android:paddingEnd="40sp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:text="@string/placeholder"
+            android:id="@+id/totalMarks"/>
+
+    </Toolbar>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment"
+    android:background="@color/black">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/skyblue"
+        android:id="@+id/topbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/result"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/log_out"
+                android:text="@string/log_out"
+                android:textSize="15sp"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/skyblue"
+                android:textColor="@color/black"
+                />
+
+        </RelativeLayout>
+
+    </Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/textback"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginStart="5sp"
+        android:id="@+id/reslst"
+        android:textColor="@color/white">
+
+    </ListView>
+
+</RelativeLayout>

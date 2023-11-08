@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Pro Exam</string>
+    <string name="log_in">Log In</string>
+    <string name="welcome_message">Ace The Pace</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="home_page">Home Page</string>
+    <string name="detail">Student</string>
+    <string name="home">Home</string>
+    <string name="schedule">Schedule</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result">Result</string>
+    <string name="student_details">Student Details</string>
+    <string name="start">Start</string>
+    <string name="log_out">Log Out</string>
+    <string name="placeholder">to be overwritten</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="submit">Submit</string>
+    <string name="online_examination">Online Examination</string>
+    <string name="result_display">Result Display</string>
+    <string name="apart">|</string>
+    <string name="student_log_in_portal">STUDENT LOG-IN PORTAL</string>
+    <string name="faculty_log_in_portal">FACULTY LOG-IN PORTAL</string>
+    <string name="aut">Authority</string>
+    <string name="autpass">\@uthoriz@tionSupreme</string>
+    <string name="Assess">Assessment</string>
+    <string name="Descriptive">Descriptive</string>
+    <string name="MCQ">MCQ</string>
+    <string name="assessment">Assessment</string>
+    <string name="all_descriptive">All Descriptive</string>
+    <string name="all_mcq">All MCQ</string>
+    <string name="assessing">Assessing</string>
+    <string name="remarks">Remarks :-</string>
+</resources>

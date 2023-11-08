@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studentmoduleandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/new_ic"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/new_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.StudentModuleAndroid">
+        <activity android:name=".DescriptiveAssessmentActivity"></activity>
+        <activity android:name=".FacultyResultDesActivity" />
+        <activity android:name=".FacultyResultActivity" />
+        <activity android:name=".HomePageFacultyActivity" />
+        <activity android:name=".ResultActivityDes" />
+        <activity android:name=".FacultyLogIn" />
+        <activity android:name=".DescriptiveExamActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".ExamPageActivity" />
+        <activity android:name=".HomePageActivity" />
+        <activity
+            android:name=".LogInActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExamPageActivity"
+    android:background="@color/black">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/skyblue"
+        android:id="@+id/topbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingEnd="25sp"
+            tools:ignore="RtlSymmetry">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:text="@string/online_examination"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:id="@+id/countdown"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+    </Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:layout_below="@id/topbar"
+        android:id="@+id/txtQue"
+        android:text="@string/placeholder"
+        android:textColor="@color/white"
+        android:padding="50sp"
+        android:textSize="22sp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/QueOpt"
+        android:layout_below="@id/txtQue"
+        android:layout_above="@id/navigation"
+        android:paddingTop="75sp"
+        android:paddingStart="50sp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/opt1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/opt2"
+                    android:layout_marginTop="75sp"/>
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/opt3"
+                    android:layout_marginTop="75sp"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/placeholder"
+                    android:textSize="17sp"
+                    android:textColor="@color/white"
+                    android:id="@+id/opt4"
+                    android:layout_marginTop="75sp"/>
+
+    </RadioGroup>
+
+
+    <Toolbar
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/skyblue"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        android:paddingStart="40sp"
+        android:paddingEnd="40sp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/prev"
+                android:textSize="17sp"
+                android:text="@string/prev"
+                android:backgroundTint="#00008b"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/next"
+                android:textSize="17sp"
+                android:text="@string/next"
+                android:backgroundTint="#00008b"
+                android:layout_marginStart="20sp"
+                android:layout_toEndOf="@id/prev"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/submit"
+                android:textSize="15sp"
+                android:text="@string/submit"
+                android:backgroundTint="#00008b"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+    </Toolbar>
+
+</RelativeLayout>

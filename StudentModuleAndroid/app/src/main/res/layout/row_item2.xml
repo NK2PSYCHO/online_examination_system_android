@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/placeholder"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:id="@+id/txtque"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/coropt"
+        android:text="@string/placeholder"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:layout_below="@id/txtque"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apart"
+        android:text="@string/apart"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:layout_below="@id/txtque"
+        android:layout_toEndOf="@id/coropt"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/apart1"
+        android:text="@string/apart"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:layout_below="@id/apart"
+        android:layout_toEndOf="@id/coropt"
+        android:layout_marginStart="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youropt"
+        android:text="@string/placeholder"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:layout_below="@id/txtque"
+        android:layout_toEndOf="@id/coropt"
+        android:layout_marginStart="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtmark"
+        android:text="@string/placeholder"
+        android:textSize="17sp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"
+        android:layout_below="@id/coropt"/>
+
+</RelativeLayout>

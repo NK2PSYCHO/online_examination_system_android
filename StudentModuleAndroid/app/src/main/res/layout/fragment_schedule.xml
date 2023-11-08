@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleFragment"
+    android:background="@color/black">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@color/skyblue"
+        android:id="@+id/tool">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schedule"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/log_out"
+                android:text="@string/log_out"
+                android:textSize="15sp"
+                android:layout_alignParentEnd="true"
+                android:backgroundTint="@color/skyblue"
+                android:textColor="@color/black"
+                tools:ignore="RelativeOverlap" />
+
+        </RelativeLayout>
+
+
+    </Toolbar>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool"
+        android:layout_above="@+id/btnstrt"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/textback"
+        android:layout_marginTop="5sp"
+        android:layout_marginEnd="5sp"
+        android:layout_marginStart="5sp"
+        android:id="@+id/schlst"
+        android:textColor="@color/white">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/current_txt"
+        android:layout_below="@id/schlst"
+        android:layout_toStartOf="@id/btnstrt"
+        android:background="@drawable/border"
+        android:layout_marginBottom="5sp"
+        android:layout_marginEnd="5sp"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/btnstrt"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="@color/skyblue"
+        android:text="@string/start"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="5sp"
+        />
+
+</RelativeLayout>
